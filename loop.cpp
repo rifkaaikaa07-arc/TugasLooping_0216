@@ -26,3 +26,9 @@ bool cekFibonacci() {
     }
     return (b == angka || angka == 0);
 }
+
+// prosedur input angka
+void inputAngka() {
+    cout << "Masukkan angka: ";
+    cin >> angka;
+}
