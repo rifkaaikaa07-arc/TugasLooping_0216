@@ -24,5 +24,5 @@ bool cekFibonacci() {
         b = a + b;
         a = temp;
     }
-
+    return (b == angka || angka == 0);
 }
