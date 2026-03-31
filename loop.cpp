@@ -58,3 +58,6 @@ void tampilMenu() {
     cout << "Pilihan: ";
     cin >> pilihan;
 }
+
+int main() {
+}
