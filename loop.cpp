@@ -78,4 +78,5 @@ int main() {
                 cout << "Pilihan tidak valid, silakan coba lagi." << endl;
         }
     }
+    return 0;
 }
