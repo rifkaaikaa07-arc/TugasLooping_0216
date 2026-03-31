@@ -6,7 +6,7 @@ int angka;
 int pilihan;
 
 // cek bilangan prima
-bool cekPrima(){
+bool cekPrima() {
     if (angka < 2) return false;
     int i = 2;
     while (i * i <= angka) {
@@ -14,4 +14,9 @@ bool cekPrima(){
         i++;
     }
     return true;
+}
+
+// cek bilangan fibonacci
+bool cekFibonacci(){
+    int a = 0, b = 1;
 }
